@@ -1,10 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: proxima nova;
+}
 .hight-size{
     height: 500px;
 }
 .border-size{
     border-radius: 10px;
     margin-top: 5em;
-    box-shadow: 0px 0px 20px 20px #f1f1f1;
+    box-shadow: 0px 0px 30px 15px #e1e1e1;
 }
 .flex-form{
     display: flex;
@@ -14,32 +19,52 @@
 .input-size{
     width: 300px;
 }
-.input-size > input{
-    padding: 10px;
+.input-size > .icons > input{
+    padding: 12px;
+    padding-left: 4em;
     width: 100%;
-    border: none;
+    /* border: none; */
+    border-radius: 5px;
+    margin-bottom: 5px;
     outline: none;
-
+}
+.input-size > .icons > input:focus{
+ background-color: #edf2fa;
 }
 .border-color-bottom{
-    border-bottom: 1px #F23F79 solid !important;
+    border:1px solid rgb(235, 235, 235);
+    font-size: 14px;
 }
 .checkbox{
     width: 300px;
     /* background-color:darkgoldenrod; */
 }
 .signup-btn{
-    width: 200px;
+    width: 300px;
     /* background-color: chocolate; */
 }
 .signup-btn > button{
-    width: 100%;
+    width: 40%;
 }
 .welcome{
-    margin-top: 2em;
+    /* margin-top: 2em; */
     width: 100%;
 }
 .welcome img{
-    width: 100%;
-    object-fit: cover;
+    width: 135%;
+    object-fit: cover ;
+}
+.icons{
+    position: relative;
+    width: 100%  
+}
+.icons > i{
+    font-size: 22px;
+    color: #80808080;
+    position: absolute;
+    top: 10px;
+    right: 12em;
+}
+.display-img{
+    display: none;
 }

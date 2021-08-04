@@ -1,0 +1,15 @@
+@media only screen and (max-width:991px){
+    .welcome img{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width:575px){
+    .welcome > .display-img{
+        display: inline !important;
+        width: 100%;
+        margin-top: 5em !important;
+    }
+    .welcome > .work-pic{
+        display: none !important;
+    }
+}
