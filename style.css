@@ -4,4 +4,42 @@
 .border-size{
     border-radius: 10px;
     margin-top: 5em;
+    box-shadow: 0px 0px 20px 20px #f1f1f1;
+}
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-size{
+    width: 300px;
+}
+.input-size > input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+.border-color-bottom{
+    border-bottom: 1px #F23F79 solid !important;
+}
+.checkbox{
+    width: 300px;
+    /* background-color:darkgoldenrod; */
+}
+.signup-btn{
+    width: 200px;
+    /* background-color: chocolate; */
+}
+.signup-btn > button{
+    width: 100%;
+}
+.welcome{
+    margin-top: 2em;
+    width: 100%;
+}
+.welcome img{
+    width: 100%;
+    object-fit: cover;
 }
